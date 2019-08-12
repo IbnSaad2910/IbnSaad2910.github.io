@@ -1,0 +1,260 @@
+@import url('https://fonts.googleapis.com/css?family=Lato:400,700|Montserrat&display=swap');
+
+body {
+    overflow-x: hidden;
+    font-family: Lato, sans-serif;
+    color: #c0c0c0;
+    background-color: black;
+}
+.offset::before {
+    display: block;
+    content: "";
+    height: 4rem;
+    margin-top: -4rem;
+}
+
+/*--- Navigation ---*/
+
+.navbar {
+  text-transform: uppercase;
+  font-weight: 700;
+  font-size: .9rem;
+  letter-spacing: .1rem;
+  background: rgba(0, 0, 0, 0.6)!important;
+}
+.navbar-brand img {
+  height: 2.4rem;
+}
+.navbar-nav li {
+  padding-right: .7rem;
+}
+.navbar-dark .navbar-nav .nav-link {
+  color: white;
+  padding: .8rem;
+}
+.navbar-dark .navbar-nav .nav-link.active, .navbar-dark .navbar-nav .nav-link:hover {
+  color: #f44336;
+}
+
+/*--- Landing Page ---*/
+
+.home-inner {
+  background-image: url(img/background.jpg);
+}
+.caption {
+  width: 100%;
+  max-width: 100%;
+  position: absolute;
+  top: 38%;
+  z-index: 1;
+  color: white;
+  text-transform: uppercase;
+  font-family: "Montserrat", sans-serif;
+}
+.caption h1 {
+    font-size: 3.8rem;
+    text-shadow: black 0.1rem 0.1rem 0.8rem;
+    padding-bottom: 1rem;
+    text-transform: capitalize;
+}
+.caption h3 {
+    font-size: 2rem;
+    text-shadow: black 0.1rem 0.1rem 0.5rem;
+    text-transform: capitalize;
+    padding-bottom: 1.6rem;
+}
+.btn-lg {
+    font-size: 1.1rem;
+    border-width: medium;
+    border-radius: 0px;
+    padding: .6rem 1.3rem;
+}
+
+/*--- About Section ---*/
+.narrow {
+    width: 75%;
+    margin: 1.5rem auto;
+    padding-top: 2rem;
+}
+.narrow h1 {
+  font-size: 2.4rem;
+}
+.btn-secondary {
+    text-transform: uppercase;
+    font-size: 1.2rem;
+    color: white;
+    background-color: rgb(244, 67, 54);
+    border-width: medium;
+    border-radius: 0px;
+    padding: 0.6rem 1.2rem;
+    margin: 1rem;
+    border-color: rgb(244, 67, 54);
+}
+.btn-secondary:hover, .btn-secondaty:active, .btn-secondary:focus {
+    background-color: rgb(226, 26, 12);
+    border-color: rgb(226, 26, 12);
+}
+
+/*--- Features Section ---*/
+
+.jumbotron {
+    margin-bottom: 0px;
+    background-color: inherit;
+    padding: 2rem 0px 3.5rem;
+    border-radius: 0px;
+}
+h3.heading {
+    font-size: 1.9rem;
+    font-weight: 700;
+    text-transform: uppercase;
+    margin-bottom: 1.9rem;
+}
+.heading-underline {
+    width: 3rem;
+    height: 0.2rem;
+    background-color: rgb(244, 67, 54);
+    margin: 0px auto 2rem;
+}
+.fa-html5.project-1, .fa-css3-alt.project-1, .fa-bootstrap.project-1 {
+  color: #FDF5E6;
+  margin: .5rem .25rem 0 .25rem;
+}
+.fa-html5.project-2, .fa-css3-alt.project-2, .fa-bootstrap.project-2 {
+  color: #AE79FF;
+  margin: .5rem .25rem 0 .25rem;
+}
+.fa-html5.project-3, .fa-css3-alt.project-3 {
+  color: #FFC107;
+  margin: .5rem .25rem 0 .25rem;
+}
+.fa-html5.project-4, .fa-css3-alt.project-4 {
+  color: #F44336;
+  margin: .5rem .25rem 0 .25rem;
+}
+.fa-html5.project-5, .fa-css3-alt.project-5, .fa-bootstrap.project-5, .fa-js.project-5 {
+  color: #FA8447;
+  margin: .5rem .25rem 0 .25rem;
+}
+.fa-html5.project-6, .fa-css3-alt.project-6, .fa-bootstrap.project-6, .fa-js.project-6, .fa-react.project-6 {
+  color: #C3B3C3;
+  margin: .5rem .25rem 0 .25rem;
+}
+.fa-html5.project-7, .fa-css3-alt.project-7, .fa-sass.project-7, .fa-react.project-7 {
+  color: #A7C38E;/*#E4F7D2*/
+  margin: .5rem .25rem 0 .25rem;
+}
+.fa-html5.project-8, .fa-css3-alt.project-8, .fa-react.project-8 {
+  color: #F3767C;
+  margin: .5rem .25rem 0 .25rem;
+}
+.fa-html5.project-9, .fa-css3-alt.project-9, .fa-bootstrap.project-9, .fa-js.project-9, .fa-react.project-9 {
+  color: #17A2B8;
+  margin: .5rem .25rem 0 .25rem;
+}
+
+/*--- Portfolio Section ---*/
+
+.fixed {
+    background-image: url(img/background.jpg);
+    z-index: -1;
+}
+.dark {
+    background-color: rgba(0, 0, 0, 0.5);
+    color: white;
+    padding: 7rem 2rem;
+}
+.fixed-background h3 {
+    margin-bottom: 2rem;
+}
+.fixed-background p {
+    margin-top: 1.5rem;
+}
+.row.no-padding [class*=col-] {
+  padding: 0;
+}
+
+/*--- Clients Section ---*/
+
+.clients img {
+  width: 100%;
+  border-radius: 50%;
+}
+blockquote .fa-quote-left {
+  color: #F44336;
+  margin: .1rem 1rem;
+}
+.clients hr {
+  border-top: .05rem solid #F44336;
+}
+
+/*--- Contacts Section ---*/
+
+footer {
+    color: white;
+    background: url(img/background.jpg) center center fixed;
+}
+footer .avatar {
+    height: 8rem;
+    margin: 1.9rem 0px;
+}
+footer a {
+    color: white;
+}
+footer .fa-phone, .fa-envelope {
+  padding-right: 1rem;
+}
+footer .fa-facebook-square, .fa-linkedin, .fa-instagram, .fa-free-code-camp, .fa-codepen {
+    margin: 1.2rem 0.5rem 1.2rem 0px;
+}
+footer .fa-facebook-square:hover, .fa-linkedin:hover, .fa-instagram:hover, .fa-free-code-camp:hover, .fa-codepen:hover {
+    color: #F44336;
+}
+hr.socket {
+    width: 100%;
+    border-top: 0.2rem solid white;
+    margin: 1rem 0px;
+}
+
+/*--- Media Queries ---*/
+
+@media (max-width: 767px) {
+.caption h1 {
+  font-size: 2.3rem;
+  letter-spacing: .15rem;
+  padding-bottom: .5rem;
+}
+.caption h3 {
+  font-size: 1.2rem;
+  padding-bottom: 1.2rem;
+}
+.btn-lg {
+  font-size: 1rem;
+  padding: .5rem 1rem;
+}
+.narrow h1 {
+  font-size: 1.5rem;
+}
+.clients img {
+  max-width: 50%;
+  display: block;
+  margin: 0 auto;
+}
+}
+/*============ BOOTSTRAP BREAK POINTS:
+
+Extra small (xs) devices (portrait phones, less than 576px)
+No media query since this is the default in Bootstrap
+
+Small (sm) devices (landscape phones, 576px and up)
+@media (min-width: 576px) { ... }
+
+Medium (md) devices (tablets, 768px and up)
+@media (min-width: 768px) { ... }
+
+Large (lg) devices (desktops, 992px and up)
+@media (min-width: 992px) { ... }
+
+Extra (xl) large devices (large desktops, 1200px and up)
+@media (min-width: 1200px) { ... }
+
+=============*/
