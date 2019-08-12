@@ -88,7 +88,7 @@ body {
     border-width: medium;
     border-radius: 0px;
     padding: 0.6rem 1.2rem;
-    margin: 1rem;
+    /*margin: 1rem;*/
     border-color: rgb(244, 67, 54);
 }
 .btn-secondary:hover, .btn-secondaty:active, .btn-secondary:focus {
