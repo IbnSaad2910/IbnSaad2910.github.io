@@ -120,7 +120,7 @@ h3.heading {
   color: #FDF5E6;
   margin: .5rem .25rem 0 .25rem;
 }
-.fa-html5.project-2, .fa-css3-alt.project-2, .fa-bootstrap.project-2 {
+.fa-html5.project-2, .fa-css3-alt.project-2, .fa-js.project-2 {
   color: #AE79FF;
   margin: .5rem .25rem 0 .25rem;
 }
@@ -144,7 +144,7 @@ h3.heading {
   color: #A7C38E;/*#E4F7D2*/
   margin: .5rem .25rem 0 .25rem;
 }
-.fa-html5.project-8, .fa-css3-alt.project-8, .fa-react.project-8 {
+.fa-html5.project-8, .fa-css3-alt.project-8, .fa-js.project-8 {
   color: #F3767C;
   margin: .5rem .25rem 0 .25rem;
 }
@@ -204,10 +204,10 @@ footer a {
 footer .fa-phone, .fa-envelope {
   padding-right: 1rem;
 }
-footer .fa-facebook-square, .fa-linkedin, .fa-instagram, .fa-free-code-camp, .fa-codepen {
+footer .fa-github, .fa-facebook-square, .fa-linkedin, .fa-instagram, .fa-free-code-camp, .fa-codepen {
     margin: 1.2rem 0.5rem 1.2rem 0px;
 }
-footer .fa-facebook-square:hover, .fa-linkedin:hover, .fa-instagram:hover, .fa-free-code-camp:hover, .fa-codepen:hover {
+footer .fa-github:hover, .fa-facebook-square:hover, .fa-linkedin:hover, .fa-instagram:hover, .fa-free-code-camp:hover, .fa-codepen:hover {
     color: #F44336;
 }
 hr.socket {
