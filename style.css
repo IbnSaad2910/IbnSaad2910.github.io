@@ -152,6 +152,10 @@ h3.heading {
   color: #17A2B8;
   margin: .5rem .25rem 0 .25rem;
 }
+.fa-html5.project-10, .fa-css3-alt.project-10, .fa-js.project-10 {
+  color: #e50914;
+  margin: .5rem .25rem 0 .25rem;
+}
 
 /*--- Portfolio Section ---*/
 
